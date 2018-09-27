@@ -1,4 +1,4 @@
-package locktest
+package golang_unlock_benchmark
 
 import (
 	"errors"
@@ -92,4 +92,3 @@ func ExplicitUnlockFunction(check1 string, check2 string) (value int, err error)
 	cache.Locker.Unlock()
 	return  value, nil
 }
-

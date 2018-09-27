@@ -1,4 +1,4 @@
-package locktest
+package golang_unlock_benchmark
 
 import "testing"
 
